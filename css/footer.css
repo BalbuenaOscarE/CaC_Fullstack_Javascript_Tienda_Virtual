@@ -1,0 +1,38 @@
+footer{
+
+    padding: 1vw 1vw 12vw 2vw;
+
+    background-color: cornflowerblue;
+
+    display: inline-flexbox;
+}
+
+footer div{
+
+    margin: 1vw 1vw 5vw 2vw;
+
+    display: inline;
+
+}
+
+footer div iframe{
+
+    float: left;
+
+    padding: 1vw ;
+
+    margin-right: 1vw;
+
+}
+
+footer div p {
+
+    float:left;
+
+    padding: 1vw ;
+
+    margin-right: 1vw;
+    
+    color: wheat;
+    
+}

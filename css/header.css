@@ -1,0 +1,94 @@
+header{
+
+    padding: 1vw 1vw 5vw 2vw;
+
+    background-color: rgb(0, 204, 255);
+
+    position: sticky;
+
+    top: 0;
+}
+
+header ul{
+
+    display: inline;
+
+}
+
+header ul li{
+    
+    display: block;
+    
+    float: left;
+
+    padding: 1vw ;
+
+    margin-right: 1vw;
+    
+    border: 0.125vw solid black;
+    
+    border-radius: 10vw;
+
+    box-shadow: 0.25vw 0.5vw ;
+
+    background-color: blue;
+
+}
+
+header ul #mayorista{
+
+    float: right;
+
+    background-color: rgba(255, 0, 0, 0.750);
+}
+
+header ul #mayorista:hover{
+
+    background-color: rgb(255, 0, 0);
+
+}
+
+header ul li a i span {
+
+    display: none;
+
+}
+
+header ul li:hover a i span {
+
+    display: inline-block;
+
+}
+
+header ul li:hover{
+    
+    background-color: blue;
+    
+    box-shadow: 0.25vw 0.5vw 0.5vw rgba(255, 255, 0, 0.702) ;
+
+    /* 
+   La propiedad 'box-shadow' se utiliza para agregar sombras a un elemento.
+   Tiene múltiples valores que controlan el aspecto de la sombra, en este orden:
+   
+   1. Desplazamiento horizontal (X)
+   2. Desplazamiento vertical (Y)
+   3. Desenfoque (Blur)
+   4. Propagación (Spread)
+   5. Color de la sombra
+
+    se le puede agregar inset al inicio para que la sombra sea interior
+   
+   Ejemplo:
+   'box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);'
+   
+   - Desplazamiento horizontal (X): 5px hacia la derecha.
+   - Desplazamiento vertical (Y): 5px hacia abajo.
+   - Desenfoque (Blur): 10px de difuminado.
+   - Propagación (Spread): Sin propagación (0px).
+   - Color de la sombra: Negro con un 30% de opacidad.
+
+   se le puede poner una coma al final, para añadir otra sombra
+   
+   Esta propiedad es útil para crear efectos de profundidad y realismo en los elementos del diseño.
+*/
+}

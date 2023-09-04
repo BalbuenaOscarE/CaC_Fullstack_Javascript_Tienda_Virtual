@@ -1,0 +1,40 @@
+@import url(reset.css);
+
+/* poner medidas en rem */
+
+@import url(variables.css);
+
+@import url(header.css);
+
+@import url(nav.css);
+
+@import url(main.css);
+
+@import url(footer.css);
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+html{
+
+    background-color: var(--primary-color);
+
+}
+
+a{
+
+    color: black;
+
+}
+
+
+a:visited {
+
+    color : black
+    
+
+}
