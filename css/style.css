@@ -15,17 +15,23 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Lora', serif;
     font-style: italic;
+    font-size: 1vw;
 }
 
 html{
 
     background-color: var(--primary-color);
 
+    overflow-x: hidden;
+
+    width: 100%;
+
 }
 
 a{
+
+    text-decoration: none;
 
     color: black;
 
@@ -34,7 +40,8 @@ a{
 
 a:visited {
 
+    text-decoration: none;
+
     color : black
-    
 
 }

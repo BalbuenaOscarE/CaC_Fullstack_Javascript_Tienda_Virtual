@@ -2,4 +2,44 @@
 
     --primary-color: wheat;
 
+    --secondary-color: lightseagreen ;
+
+    --tertiary-color: turquoise;
+
+    /*no más de 2 o 3 tipos de colores y estilados de letras*/
+
+}
+
+body{
+
+font-family: "Lora", sans-serif;
+
+}
+
+
+
+p{
+
+font-size: 1rem;
+
+}
+
+h2{
+
+    font-size: 3rem;
+
+    text-align: center;
+
+}
+
+h3{
+
+    font-size: 2rem;
+
+}
+
+.text-serif{
+
+    font-family: "PT Serif", serif;
+    
 }

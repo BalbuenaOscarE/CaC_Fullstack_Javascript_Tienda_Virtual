@@ -1,6 +1,10 @@
+@import url(variables.css);
+
 nav{
+
+    width: 100%;
     
-    padding: 1vw 1vw 5vw 2vw;
+    padding: 1vw 1vw 2vw 2vw;
 
     background-color: lightseagreen;
 
@@ -8,49 +12,55 @@ nav{
 
     top: 6vw;
 
-}
-
-
-nav div {
-
-    display: inline;
-
-    float: left;
-
-    margin-right: 1vw;
+    align-items: center;
 
 }
 
+nav.flex ul{
 
-nav ul{
+    display: flex;
 
-    display: inline;
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-around;
 
 }
 
 nav ul li{
-    
-    display: block;
-    
-    float: left;
 
-    padding: 1vw ;
+    padding: 0.75em 1em;
 
-    margin-right: 1vw;
+    width: fit-content;
+
+    margin-right: 2vw;
+
+    height: auto;
     
     border: 0.125vw solid black;
 
     box-shadow: 0.25vw 0.5vw ;
+    
 
     background-color: lightskyblue;
+
+    text-align: center;
+
+    align-items: center;
+
 
 }
 
 nav ul li:hover{
     
-    padding: 1vw ;
+    padding: 0.75em 1em;
 
-    margin-right: 1vw;
+    margin-right: 2vw;
+
+    width: fit-content;
+
+    height: auto;
     
     border: 0.125vw solid black;
 
@@ -60,8 +70,74 @@ nav ul li:hover{
 
 }
 
+nav ul li a{
+
+    min-width: 50rem;
+
+}
+
 nav ul li:hover a{
 
     color: wheat;
 
 }
+
+#logo{
+
+    border: none;
+
+    background-color: transparent;
+
+    box-shadow: none;
+
+
+}
+
+#menu{
+    
+    font-size: 5vw;
+
+    background-color: var(--secondary-color);
+
+    height: auto;
+
+    border: none;
+
+    background-color: transparent;
+
+    box-shadow: none;
+
+    display: none;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav{
+
+        justify-content: space-around;
+
+    }
+
+    nav ul li {
+
+    display: none;
+
+    }
+
+    #logo{
+
+        display: initial;
+
+    }
+
+    #menu{
+
+        display: initial;
+
+    }
+
+
+  }
+
+  /** **/
