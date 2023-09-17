@@ -41,13 +41,12 @@ nav ul li{
     border: 0.125vw solid black;
 
     box-shadow: 0.25vw 0.5vw ;
-    
 
     background-color: lightskyblue;
 
     text-align: center;
 
-    align-items: center;
+    align-items: left;
 
 
 }
@@ -70,11 +69,6 @@ nav ul li:hover{
 
 }
 
-nav ul li a{
-
-    min-width: 50rem;
-
-}
 
 nav ul li:hover a{
 
@@ -93,17 +87,19 @@ nav ul li:hover a{
 
 }
 
-#menu{
+#menu_contract, #menu_expand{
     
     font-size: 5vw;
 
-    background-color: var(--secondary-color);
+    background-color: wheat;
+
+    padding: 1vw;
+
+    border-radius: 50%;
 
     height: auto;
 
     border: none;
-
-    background-color: transparent;
 
     box-shadow: none;
 
@@ -131,7 +127,7 @@ nav ul li:hover a{
 
     }
 
-    #menu{
+    #menu_expand{
 
         display: initial;
 
