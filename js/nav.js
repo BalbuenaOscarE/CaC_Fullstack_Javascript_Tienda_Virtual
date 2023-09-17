@@ -43,7 +43,7 @@ function enable_navbar(){
         
     navbar_ul.style.flexDirection = "row";
     
-    menu_expand.style.marginTop = "5vw"
+    menu_contract.style.marginTop = "5vw"
         
     item_1.style.display = "none";
     
@@ -66,7 +66,7 @@ function enable_navbar(){
 function expand(){
 
 
-    menu_contract.style.display = "block";
+    menu_contract.style.display = "flex";
 
     menu_expand.style.display = "none";
 
@@ -76,7 +76,7 @@ function contract(){
 
     menu_contract.style.display = "none";
 
-    menu_expand.style.display = "block";
+    menu_expand.style.display = "flex";
 
 }
 

@@ -11,17 +11,27 @@ header{
     position: sticky;
 
     top: 0;
+
+    display: flex;
+
+    align-content: center;
+
+    flex-direction: row;
+
+    height: 4vw;
+
+    width: 100%;
     
 }
 
 header ul{
 
-    display: flexbox;
+    display: flex;
 
 }
 
 header ul li{
-    
+
     float: left;
 
     padding: 1vw ;
@@ -30,14 +40,16 @@ header ul li{
     
     border: 0.125vw solid black;
     
-    border-radius: 10vw;
+    border-radius: 25%;
+
+    height: fit-content;
+
+    width: max-content;
 
     box-shadow: 0.25vw 0.5vw ;
 
     background-color: blue;
 
-    
-    
     transition-duration: 0.5s;
 
 }
@@ -59,11 +71,12 @@ header ul li a i span {
 
     display: none;
 
+
 }
 
 header ul li:hover a i span {
 
-    display: inline-block;
+    display: inline;
 
 }
 
@@ -74,6 +87,10 @@ header ul li:hover{
     background-color: #004AAD;
     
     box-shadow: 0.25vw 0.5vw 0.5vw rgba(255, 255, 0, 0.702) ;
+
+    border-top-left-radius: 25%;
+
+    border-left: 100%;
     
 
     /* 
