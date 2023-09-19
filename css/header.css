@@ -126,30 +126,6 @@ header ul li:hover{
 
 @media only screen and (max-width: 768px) {
 
-    footer{
-
-        display: grid;
-
-        grid-template-columns: 100%;
-
-        height: fit-content;
-
-        text-align: center;
-
-    }
-
-    header ul li{
     
-        font-size: 0.5vw;
-    
-    }
-
-    header ul li:hover a i span {
-
-    display: inline;
-
-    font-size: 0.5vw;
-
-    }
 
 }
