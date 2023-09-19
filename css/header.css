@@ -126,6 +126,23 @@ header ul li:hover{
 
 @media only screen and (max-width: 768px) {
 
+    header{
+
+        height: 10vw;
+    }
+
+    header ul li{
     
+        font-size: 4vw;
+    
+    }
+
+    header ul li:hover a i span {
+
+    display: inline;
+
+    font-size: 4vw;
+
+    }
 
 }

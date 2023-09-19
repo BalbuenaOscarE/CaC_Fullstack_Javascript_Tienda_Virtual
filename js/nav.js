@@ -13,11 +13,10 @@ const item_3 = document.getElementById("item_3");
 const item_4 = document.getElementById("item_4");
 
 
+
 function disable_navbar(){
 
     navbar_ul.style.flexDirection = "column";
-    
-    menu_expand.style.marginTop = "5vw"
         
     item_1.style.display = "initial";
     
@@ -42,8 +41,6 @@ function enable_navbar(){
     navbar_ul.style.display = "flex";
         
     navbar_ul.style.flexDirection = "row";
-    
-    menu_contract.style.marginTop = "5vw"
         
     item_1.style.display = "none";
     
@@ -66,7 +63,7 @@ function enable_navbar(){
 function expand(){
 
 
-    menu_contract.style.display = "flex";
+    menu_contract.style.display = "initial";
 
     menu_expand.style.display = "none";
 
@@ -76,7 +73,7 @@ function contract(){
 
     menu_contract.style.display = "none";
 
-    menu_expand.style.display = "flex";
+    menu_expand.style.display = "initial";
 
 }
 

@@ -2,8 +2,6 @@ footer{
 
     padding: 1vw 1vw 6vw 2vw;
 
-    overflow-y: hidden;
-
     background-color: cornflowerblue;
 
     display: grid;
@@ -26,7 +24,7 @@ footer div.container_iframe{
     padding: 1vw;
 
     position: relative;
-
+    
     overflow: hidden;
 
     width: 100%;

@@ -97,7 +97,7 @@ nav ul li:hover a{
 
 #menu_contract, #menu_expand{
     
-    font-size: 3vw;
+    font-size: 5vw;
 
     background-color: wheat;
 
@@ -119,6 +119,8 @@ nav ul li:hover a{
 
         justify-content: space-around;
 
+        top: 10vw;
+
     }
 
     nav ul li {
@@ -135,9 +137,9 @@ nav ul li:hover a{
 
     #logo_img{
 
-        width: 8vw;
+        width: 15vw;
 
-        height: 8vw;
+        height: 15vw;
 
     }
 
@@ -147,6 +149,12 @@ nav ul li:hover a{
 
     }
 
+    #menu_contract{
+
+        
+    margin-top: "10vw";
+
+    }
 
   }
 
