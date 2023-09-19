@@ -97,10 +97,9 @@ nav ul li:hover a{
 
 #menu_contract, #menu_expand{
     
-    font-size: 5vw;
+    font-size: 3vw;
 
     background-color: wheat;
-
 
     border-radius: 50%;
 
@@ -136,9 +135,9 @@ nav ul li:hover a{
 
     #logo_img{
 
-        width: 15vw;
+        width: 8vw;
 
-        height: 15vw;
+        height: 8vw;
 
     }
 

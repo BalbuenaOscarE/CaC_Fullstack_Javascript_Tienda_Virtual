@@ -18,7 +18,7 @@ header{
 
     flex-direction: row;
 
-    height: 4vw;
+    height: 6vw;
 
     width: 100%;
     
@@ -52,6 +52,8 @@ header ul li{
 
     transition-duration: 0.5s;
 
+    font-size: 1vw;
+
 }
 
 header ul #mayorista{
@@ -77,6 +79,8 @@ header ul li a i span {
 header ul li:hover a i span {
 
     display: inline;
+
+    font-size: 1vw;
 
 }
 
@@ -118,4 +122,34 @@ header ul li:hover{
    
    Esta propiedad es útil para crear efectos de profundidad y realismo en los elementos del diseño.
 */
+}
+
+@media only screen and (max-width: 768px) {
+
+    footer{
+
+        display: grid;
+
+        grid-template-columns: 100%;
+
+        height: fit-content;
+
+        text-align: center;
+
+    }
+
+    header ul li{
+    
+        font-size: 0.5vw;
+    
+    }
+
+    header ul li:hover a i span {
+
+    display: inline;
+
+    font-size: 0.5vw;
+
+    }
+
 }
