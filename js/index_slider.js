@@ -7,6 +7,7 @@ let sliderSectionLast = sliderSection[sliderSection.length -1];
 
 // el largo de la lista, le restamos uno, y nos devuelve la última posición, ésto lo leemos cómo un index y ya ubicamos la última sección
 
+
 slider.insertAdjacentElement("afterbegin",sliderSectionLast)
 
 //inserta el elemento sliderSectionLast, despues de empezar, es decir, en la posición [0]
@@ -30,10 +31,11 @@ slider.style.marginLeft = "-100%"
 
 }
 
-/*Para ponerlo automático(cada 5000 ms)*/
+
+/* Para ponerlo automático(cada 5000 ms)*/
 
 setInterval(function(){ 
 
     Next();
 
-},5000)
+},5000) 
